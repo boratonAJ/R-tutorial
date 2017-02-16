@@ -22,11 +22,18 @@ summary(cars)
     ##  3rd Qu.:19.0   3rd Qu.: 56.00  
     ##  Max.   :25.0   Max.   :120.00
 
+``` r
+x <- rnorm(1000,0,1)
+head(x)
+```
+
+    ## [1]  1.3254012  0.6955743 -0.2776426  1.2309294  0.6125773  1.0716408
+
 Including Plots
 ---------------
 
 You can also embed plots, for example:
 
-![](RMarkdown_files/figure-markdown_github/pressure-1.png)
+![](RMarkdown_files/figure-markdown_github/pressure-1.png)![](RMarkdown_files/figure-markdown_github/pressure-2.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
